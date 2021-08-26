@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.navList{
+    background: rgba(204, 201, 220, 0.1);
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 70px;
+    align-items: center;
+}
+
+.navItem{
+    list-style: none;
+}
+
+.navItem a{
+    text-decoration: none;
+    color: #1B2A41;
+    font-size: 20px;
+    margin-left: 32px;
+}
+
+.navItem a:hover{
+    color: #2D53AD;
+}
+
+.logo{
+    list-style: none;
+    margin-right: auto;
+}
+
+#home{
+    height: 540px;
+    background: rgba(204, 201, 220, 0.1);
+    display: flex;
+    padding: 0px 70px;
+    align-items: center;
+    align-content: center;
+}
+
+#home h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.warnaBiru {
+    color: #1B2A41;
+}
+
+#text {
+    color: #2D53AD;
+}
+
+.homeLeft{
+    width: 776px;
+}
+
+.homeLeft p{
+    font-size: 16px;
+    width: 480px;
+    margin-top: 24px;
+}
+
+.typingContainer {
+    height: 80px;
+}
+
+.typingContainer h1{
+    color: #2D53AD;
+}
+
+button {
+    width: 148px;
+    height: 46px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    background: linear-gradient(94.5deg, #7595E2 0%, #2D53AD 100%);
+    box-shadow: 5px 5px 10px rgba(51, 89, 177, 0.3);
+    border-radius: 5px;
+    border: none;
+    margin-top: 54px;
+    cursor: pointer;
+}
+
+
+#about {
+    height: 675px;
+    padding: 48px 70px 0px 70px;
+    background: white;
+}
+
+h2 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #1B2A41;
+}
+
+.contentAbout {
+    display: flex;
+    margin-top: 48px;
+    align-items: center;
+}
+
+.contentAbout img{
+    width: 400px;
+}
+
+.contentAbout p{
+    font-size: 20px;
+    margin-left: 32px;
+    line-height: 30px;
+    color: #1B2A41;
+}
+
+#work {
+    height: 950px;
+    background: rgba(204, 201, 220, 0.1);
+    padding: 48px 70px 0px 70px;
+    
+}
+
+.contentWork {
+    display: flex;
+    align-items: center;
+    margin-top: 48px;
+}
+
+h3  {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #1B2A41;
+}
+
+h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #CCC9DC;
+}
+
+.workLeft{
+    position: relative;
+    max-width: 650px;
+}
+
+.workRight {
+    margin-left: auto;
+}
+
+.workRight img{
+    width: 480px;
+}
+
+.workLeft p{
+    margin: 20px 0px 32px 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B2A41;
+}
+
+.workLeft a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: #2D53AD;
+}
+
+#client {
+    height: 280px;
+    background: white;
+    padding: 48px 70px 0px 70px;
+}
+
+.contentClient{
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0.5;
+    
+}
+
+.contentClient a:hover{
+    opacity: 0.3;
+}
+
+#contact {
+    height: 850px;
+    background: #FAFAFC;
+    padding: 48px 70px 0px 70px;
+}
+
+.contactLeft{
+    width: 480px;
+    height: 550px;
+    background: #2D53AD;
+    border-radius: 20px;
+    padding: 32px;
+    margin-top: 48px;
+}
+
+.contactLeft h3{
+    color: white;
+}
+
+.contactLeft h4{
+    margin-top: 16px;
+}
+
+.contactLeft p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #CCC9DC;
+}
+
+.contactLeft ul{
+    list-style: none;
+
+    
+}
+.contact-form {
+    padding-top: 50px;
+}
+
+.contact-form h3 {
+    text-align: center;
+    color: rgb(40, 15, 109);
+    font-size: 30px;
+}
+
+input, textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+}
+
+.submit {
+    background: #dee7ec;
+    color: #ffffff;
+    padding: 15px 50px;
+    background-color: #3a56b1;
+    cursor: pointer;
+}
+
+.submit:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+}
+
+.section-title {
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.shape {
+    float:right;
+    padding-top: 40px;
+    margin-top: 30px;
+}
+
+footer{
+    width:100%;
+    height:250px;
+    background-color:#1B2A41;
+    padding: 64px 70px;
+}
+
+.footer-left{
+    float:left;
+}
+
+.footer-left img{
+    margin-bottom:32px;
+}
+
+.footer-right{
+    float:right;
+    text-align:right;
+    margin-top: 64px;
+}
